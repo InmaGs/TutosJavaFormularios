@@ -23,7 +23,9 @@
                 <s:textfield name="username" label="Username"/>
                 <s:password name="password" label="Password"/>
                 <s:textfield name="edad" label="Edad"/>
-                <s:textfield name="fechaNacimiento" label="Fecha de Nacimiento"/>
+                <s:textfield name="fechaNacimiento" label="Fecha de Nacimiento"/>                
+                <%-- Añadimos un campo nuevo que no está incluido en usuario --%>
+                <s:textfield name="numero" label="Número de Confirmación"/>
                 <s:submit value="Enviar"/>
             </s:form>
         </p>

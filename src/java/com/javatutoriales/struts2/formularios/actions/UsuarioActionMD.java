@@ -36,4 +36,17 @@ public class UsuarioActionMD extends ActionSupport implements ModelDriven <Usuar
     public String execute() throws Exception{
         return SUCCESS;
     }
+    
+    //Añadimos get y set para la variable número, la cual no está incluida dentro
+    //de la clase usuario:
+    
+    private int numero;
+    
+    public void setNumero(int numero){
+        this.numero=numero;
+    }
+    
+    public int getNumero(){
+        return numero;
+    }
 }

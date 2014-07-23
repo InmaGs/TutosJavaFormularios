@@ -20,6 +20,7 @@
             Password: <s:property value="password"/><br/>
             Edad: <s:property value="edad"/><br/>
             Fecha de Nacimiento: <s:property value="fechaNacimiento"/><br/>
+            Número de Confirmación: <s:property value="numero"/>
         </p>
         <p>
             <a href="../index.jsp">Inicio</a>

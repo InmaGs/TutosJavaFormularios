@@ -19,6 +19,8 @@
             <li><a href="nuevo-usuario.jsp">Nuevo Usuario</a></li>
             <li><a href="modeldriven/nuevo-usuario.jsp">Nuevo Usuario ModelDriven</a></li>
             <li><a href="multidatos/datos.jsp">Correos electrónicos</a></li>
+            <li><a href="multiparametros/datos.jsp">Parámetros</a></li>
+            <li><a href="validaciones/formulario.jsp">Validaciones</a></li>
         </ul>
         </p>
     </body>

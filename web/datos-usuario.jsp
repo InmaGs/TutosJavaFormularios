@@ -21,5 +21,8 @@
             Edad: <s:property value="usuario.edad"/><br/>
             Fecha de Nacimiento: <s:property value="usuario.fechaNacimiento"/><br/>
         </p>
+        <p>
+            <a href="index.jsp">Inicio</a>
+        </p>
     </body>
 </html>

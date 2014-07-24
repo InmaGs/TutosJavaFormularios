@@ -27,5 +27,8 @@
                 <s:submit value="Enviar"/>
             </s:form>
         </p>
+        <p>
+            <a href="index.jsp">Inicio</a>
+        </p>
     </body>
 </html>

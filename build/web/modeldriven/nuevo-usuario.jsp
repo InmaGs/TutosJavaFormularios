@@ -1,6 +1,6 @@
 <%-- 
     Document   : nuevo-usuario
-    Created on : 22-jul-2014, 13:15:50
+    Created on : 23-jul-2014, 9:47:35
     Author     : inmaculada.garcia
 --%>
 
@@ -10,10 +10,10 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>JSP Page Nuevo Usuario</title>
+        <title>Nuevo Usuario con Model Driven</title>
     </head>
     <body>
-        <h1>Nuevo Usuario</h1>
+        <h1>Ingreso de datos de nuevo usuario a través de Model Driven</h1>
         <p>
             <%-- Iniciamos el formulario para obtener datos que serán enviados por medio del action
                 para ser procesados--%>
@@ -23,12 +23,14 @@
                 <s:textfield name="username" label="Username"/>
                 <s:password name="password" label="Password"/>
                 <s:textfield name="edad" label="Edad"/>
-                <s:textfield name="fechaNacimiento" label="Fecha de Nacimiento"/>
+                <s:textfield name="fechaNacimiento" label="Fecha de Nacimiento"/>                
+                <%-- Añadimos un campo nuevo que no está incluido en usuario --%>
+                <s:textfield name="numero" label="Número de Confirmación"/>
                 <s:submit value="Enviar"/>
             </s:form>
         </p>
         <p>
-            <a href="index.jsp">Inicio</a>
+            <a href="../index.jsp">Inicio</a>
         </p>
     </body>
 </html>

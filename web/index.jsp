@@ -21,6 +21,7 @@
             <li><a href="multidatos/datos.jsp">Correos electrónicos</a></li>
             <li><a href="multiparametros/datos.jsp">Parámetros</a></li>
             <li><a href="validaciones/formulario.jsp">Validaciones</a></li>
+            <li><a href="validaciones/formularioAnotaciones.jsp">Validaciones con anotaciones</a></li>
         </ul>
         </p>
     </body>

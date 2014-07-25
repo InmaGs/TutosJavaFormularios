@@ -78,6 +78,10 @@ public final class archivo_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\n");
       out.write("        </p>\n");
       out.write("        <p>\n");
+      out.write("            Imágen generada: <br/>\n");
+      out.write("            <img src=\"generaImagenes.action\" alt=\"imagen\"/>\n");
+      out.write("        </p>\n");
+      out.write("        <p>\n");
       out.write("            <a href=\"../index.jsp\">Inicio</a>\n");
       out.write("        </p>\n");
       out.write("    </body>\n");

@@ -21,6 +21,10 @@
             <s:a action="descargaArchivo" namespace="/descarga">Descargar archivo</s:a>
         </p>
         <p>
+            Imágen generada: <br/>
+            <img src="generaImagenes.action" alt="imagen"/>
+        </p>
+        <p>
             <a href="../index.jsp">Inicio</a>
         </p>
     </body>

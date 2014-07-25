@@ -13,8 +13,15 @@
         <title>Descarga de Archivos</title>
     </head>
     <body>
-        <h1>Archivo a descargar</h1>
-        <%-- La siguiente etiqueta marca el vínculo de la descarga --%>
-        <s:a action="muestraArchivo" namespace="/descarga">Ver archivo</s:a>
+        <h1>Archivo a descargar:</h1>
+        <p>
+        <%-- La siguiente etiqueta marca el vínculo de la visualizacion del documento --%>
+            <s:a action="muestraArchivo" namespace="/descarga">Ver archivo</s:a>
+            <%-- La siguiente etiqueta marca el vínculo de la descarga del documento --%>
+            <s:a action="descargaArchivo" namespace="/descarga">Descargar archivo</s:a>
+        </p>
+        <p>
+            <a href="../index.jsp">Inicio</a>
+        </p>
     </body>
 </html>

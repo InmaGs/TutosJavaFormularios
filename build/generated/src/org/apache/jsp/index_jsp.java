@@ -62,6 +62,7 @@ public final class index_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("            <li><a href=\"validaciones/formulario.jsp\">Validaciones</a></li>\n");
       out.write("            <li><a href=\"validaciones/formularioAnotaciones.jsp\">Validaciones con anotaciones</a></li>\n");
       out.write("            <li><a href=\"carga/formulario.jsp\">Carga de Archivos</a></li>\n");
+      out.write("            <li><a href=\"descarga/archivo.jsp\">Descarga de Archivos</a></li>\n");
       out.write("        </ul>\n");
       out.write("        </p>\n");
       out.write("    </body>\n");

@@ -21,9 +21,9 @@ import org.apache.struts2.ServletActionContext; //Método que carga la ruta del 
 //Anotamos la clase:
 @Namespace(value="/descarga")
 // Hay que indicar en el resultado que es un flujo de datos(stream). 
-// Como parámetros se especifíca el tipo de archivo
+// Como parámetros se especifíca el tipo de archivo(contentType).
 @Action(value="muestraArchivo", results={@Result(type="stream", params=
-        {"contentType","application/pdf"})})
+        {"contentType","application/pdf"})}) 
 public class MuestraArchivo extends ActionSupport {
     
     //Declaramos la variable que va a "guardar" el archivo a descargar

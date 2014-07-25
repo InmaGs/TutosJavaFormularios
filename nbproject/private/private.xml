@@ -3,11 +3,8 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/inmaculada.garcia/Documents/NetBeansProjects/TutoStruts/EjemploStruts2Formularios/web/nuevo-usuario.jsp</file>
-            <file>file:/C:/Users/inmaculada.garcia/Documents/NetBeansProjects/TutoStruts/EjemploStruts2Formularios/web/datos-usuario.jsp</file>
-            <file>file:/C:/Users/inmaculada.garcia/Documents/NetBeansProjects/TutoStruts/EjemploStruts2Formularios/src/java/com/javatutoriales/struts2/formularios/modelo/Usuario.java</file>
-            <file>file:/C:/Users/inmaculada.garcia/Documents/NetBeansProjects/TutoStruts/EjemploStruts2Formularios/src/java/com/javatutoriales/struts2/formularios/actions/UsuarioActions.java</file>
-            <file>file:/C:/Users/inmaculada.garcia/Documents/NetBeansProjects/TutoStruts/EjemploStruts2Formularios/web/index.jsp</file>
+            <file>file:/C:/Users/inmaculada.garcia/Documents/NetBeansProjects/TutoStruts/EjemploStruts2Formularios/web/descarga/archivo.jsp</file>
+            <file>file:/C:/Users/inmaculada.garcia/Documents/NetBeansProjects/TutoStruts/EjemploStruts2Formularios/src/java/com/javatutoriales/struts2/formularios/actions/GeneradorImagenes.java</file>
         </group>
     </open-files>
 </project-private>

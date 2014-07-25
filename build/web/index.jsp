@@ -19,6 +19,11 @@
             <li><a href="nuevo-usuario.jsp">Nuevo Usuario</a></li>
             <li><a href="modeldriven/nuevo-usuario.jsp">Nuevo Usuario ModelDriven</a></li>
             <li><a href="multidatos/datos.jsp">Correos electrónicos</a></li>
+            <li><a href="multiparametros/datos.jsp">Parámetros</a></li>
+            <li><a href="validaciones/formulario.jsp">Validaciones</a></li>
+            <li><a href="validaciones/formularioAnotaciones.jsp">Validaciones con anotaciones</a></li>
+            <li><a href="carga/formulario.jsp">Carga de Archivos</a></li>
+            <li><a href="descarga/archivo.jsp">Descarga de Archivos</a></li>
         </ul>
         </p>
     </body>

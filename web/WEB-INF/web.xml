@@ -3,9 +3,19 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
 http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
     
+    
     <filter>
         <filter-name>struts2</filter-name>
-            <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+        <filter-class>org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter</filter-class>
+        <init-param>
+            <param-name>struts.multipart.maxSize</param-name>
+            <param-value>5097152</param-value>
+        </init-param>
+        <!-- Añadimos parámetros al filtro que regulen la carga de archivos -->
+        <init-param>
+            <param-name>struts.custom.i18n.resources</param-name>
+            <param-value>struts-mensajes</param-value>
+        </init-param>
     </filter>
     
     <filter-mapping>

@@ -17,7 +17,10 @@ import java.io.File;
 //Anotamos, con dos posibles resultados:
 @Namespace(value="/carga")
 @Action(value="cargaArchivo", results={@Result(location="/carga/archivoCargado.jsp"),
-                                       @Result(name="input", location="carga/formulario.jsp")})
+                                       @Result(name="input", location="/carga/formulario.jsp")})
+@InterceptorRefs(value={@InterceptorRef(value="fileUpload",params=
+                            {"maximumSize","2097152","allowedTypes","image/png"}),
+                       @InterceptorRef(value="defaultStack")})
 public class CargaArchivo extends ActionSupport{
     
     private String autor;
@@ -60,7 +63,9 @@ public class CargaArchivo extends ActionSupport{
     //getters necesarios para guardar los archivos que se suben.
     public String getNombre()
     {
-        return archivo.getName();
+        //return archivo.getName();
+        //Cambiamos lo anterior por:
+        return archivoFileName;
     }
     
     public String getRuta(){

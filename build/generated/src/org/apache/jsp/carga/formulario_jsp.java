@@ -78,6 +78,7 @@ public final class formulario_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("        <p>\n");
       out.write("            ");
       out.write("\n");
+      out.write("            \n");
       out.write("            ");
       if (_jspx_meth_s_actionerror_0(_jspx_page_context))
         return;
@@ -180,7 +181,7 @@ public final class formulario_jsp extends org.apache.jasper.runtime.HttpJspBase
     _jspx_th_s_file_0.setPageContext(_jspx_page_context);
     _jspx_th_s_file_0.setParent((javax.servlet.jsp.tagext.Tag) _jspx_th_s_form_0);
     _jspx_th_s_file_0.setName("archivo");
-    _jspx_th_s_file_0.setLabel("Archivo");
+    _jspx_th_s_file_0.setLabel("Archivo:");
     int _jspx_eval_s_file_0 = _jspx_th_s_file_0.doStartTag();
     if (_jspx_th_s_file_0.doEndTag() == javax.servlet.jsp.tagext.Tag.SKIP_PAGE) {
       _jspx_tagPool_s_file_name_label_nobody.reuse(_jspx_th_s_file_0);

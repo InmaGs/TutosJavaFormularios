@@ -16,11 +16,12 @@
         <h1>Formulario para carga de archivos</h1>
         <p>
             <%-- Añadimos una etiqueta de error --%>
+            
             <s:actionerror/>
             <s:form action="cargaArchivo" enctype="multipart/form-data">
                 <%-- La siguiente etiqueta se encarga de gestionar la subida
                     de los archivos--%>
-                <s:file name="archivo" label="Archivo"/>
+                <s:file name="archivo" label="Archivo:"/>
                 <s:textfield name="autor" label="Autor:"/>
                 <s:submit value="Enviar"/>
             </s:form>
